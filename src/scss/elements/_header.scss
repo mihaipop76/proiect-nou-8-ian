@@ -1,0 +1,108 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.3em;
+  box-shadow: 0px 3px 6px #00000029;
+
+  [type="checkbox"] {
+    display: none;
+  }
+
+  .logo {
+    font-family: $font-raleway;
+    font-size: 2rem;
+    font-weight: 300;
+    color: $color-primary;
+    line-height: 6rem;
+  }
+
+  .menu {
+    @include desktop {
+      display: none;
+    }
+    span {
+
+      display: block;
+      width: 1.2em;
+      border-top: 2px solid $color-primary;
+
+      margin-bottom: .2em;
+    }
+  }
+  .desktop-menu {
+    display: none;
+    line-height: 6rem;
+    @include desktop {
+      display: block;
+      width: 50%;
+      ul {
+        text-align: right;
+        li {
+          display: inline-block;
+          margin-left: 50px;
+          a{
+            display: inline-block;
+            height: 95px;
+            color: $color-grey;
+            font-size: .7em;
+            letter-spacing: .1em;
+            font-weight: bold;
+            &:hover {
+              border-bottom: solid $color-primary 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    transition-duration: 0.5s;
+    background-color: #fff;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    padding: 10px 24px;
+    box-shadow: 0 5px 6px #00000029;
+
+
+    li {
+      a {
+        color: $color-grey;
+        font-family: $font-open-sans;
+        letter-spacing: 3px;
+        font-size: 0.8em;
+        line-height: 2.5em;
+
+        &.active {
+          color: $color-black;
+        }
+      }
+    }
+  }
+
+  #show-menu:checked {
+    ~ .mobile-menu {
+      display: block;
+
+    }
+    ~ .menu {
+      span {
+        transform-origin: 35% 35%;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+      }
+      span:nth-child(1) {
+        transform: rotate(45deg);
+      }
+      span:nth-child(2) {
+        display: none;
+      }
+      span:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}

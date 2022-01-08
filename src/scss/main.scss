@@ -1,0 +1,26 @@
+@import "generic/reset";
+@import "settings/index";
+@import "generic/base";
+@import "elements/header";
+@import "elements/banner";
+@import "elements/table";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+a {
+  color: #626CAE;
+}
+
+.box {
+  background: #fafafa;
+  padding: 10px;
+}
+.footer {
+  background: #efefef;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}

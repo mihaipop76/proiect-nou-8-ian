@@ -1,11 +1,8 @@
-//.banner {
-//}
-
 .banner {
   display: block;
   text-align: center;
   height: 267px;
-  background-image: url("../../images/muntii-fagaras.jpg");
+  background-image: url("../../images/official.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -14,13 +11,16 @@ h1 {
   font-family: $font-raleway;
   font-size: 35px;
   margin: 30px;
+  font-weight: bold;
 
 }
 
 p {
   font-family: $font-open-sans;
   font-size: 25px;
-  margin: 60px auto;
+  margin: 30px auto;
+  padding: 20px;
+  font-weight: bold;
 }
 
 //.button-shop {

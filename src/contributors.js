@@ -23,9 +23,9 @@ export function Contributors(){
         <table className="table">
             <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
+                <th scope="col">Nr. crt.</th>
+                <th scope="col">First name</th>
+                <th scope="col">Last name</th>
                 <th scope="col">Handle</th>
             </tr>
             </thead>

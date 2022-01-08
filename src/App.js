@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './scss/main.scss';
 import muntiiFagaras from "./images/muntii-fagaras.jpg"
+import muntiiFagaras2 from "./images/muntii-fagaras-2.jpg"
+import muntiiTransfagarasan from "./images/transfagarasan.jpg"
 import {Contributors} from "./contributors";
 
 function App() {
@@ -66,7 +68,7 @@ function App() {
             <div className="row">
                 <div className="col-sm">
                     <div className="card">
-                        <img src="images/transfagarasan.jpg" className="card-img-top" alt="..."/>
+                        <img src={muntiiTransfagarasan} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Titlul primei poze</h5>
                             <p className="card-text">Un exemplu de loc de vizitat</p>
@@ -86,7 +88,7 @@ function App() {
                 </div>
                 <div className="col-sm">
                     <div className="card">
-                        <img src="images/muntii-fagaras-2.jpg" className="card-img-top" alt="..."/>
+                        <img src={muntiiFagaras2} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Titlul celei de a treia poze</h5>
                             <p className="card-text">Un exemplu de loc de vizitat</p>

@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && rm -rf ./docs && mv ./build/ ./docs/"
+    "deploy": "set PUBLIC_URL=/proiect-nou-8-ian/ && npm run build && rm -rf ./docs && mv ./build/ ./docs/"
   },
   "eslintConfig": {
     "extends": [

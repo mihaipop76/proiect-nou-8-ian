@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Gigel",
-    "surname": "Popescu",
-    "contact": "@gigi"
+    "name": "Mark",
+    "surname": "Otto",
+    "contact": "@mdo"
   },
   {
     "id": 2,
-    "name": "Gig",
-    "surname": "Popescu",
-    "contact": "@gig"
+    "name": "Jacob",
+    "surname": "Thornton",
+    "contact": "@fat"
   },
   {
     "id": 3,
-    "name": "Gige",
-    "surname": "Popescu",
-    "contact": "@gi"
+    "name": "Larry",
+    "surname": "the Bird",
+    "contact": "@twitter"
   }
 ]

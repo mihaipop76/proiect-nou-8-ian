@@ -60,8 +60,8 @@ function App() {
 
                 </div>
             </section>
-            <div className="row mt-5">
-                <div className="col">
+            <div className="row">
+                <div className="col contributor-container">
                     <Contributors/>
                 </div>
             </div>

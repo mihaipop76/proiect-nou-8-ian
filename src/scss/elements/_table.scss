@@ -1,6 +1,9 @@
 .table {
-  display: block;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+  display: initial;
+  width: auto;
+}
+
+.col.contributor-container{
+  text-align: center;
+  margin-top: 0;
 }

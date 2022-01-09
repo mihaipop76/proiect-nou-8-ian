@@ -9,21 +9,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
-.row.mt-5{
-  margin: auto;
-  display: block;
-  justify-content: center;
-  align-content: center;
 
+a {
+  color: #626CAE;
 }
-//a {
-//  color: #626CAE;
-//}
-//
-//.box {
-//  background: #fafafa;
-//  padding: 10px;
-//}
+
+.box {
+  background: #fafafa;
+  padding: 10px;
+}
 .col {
   background: #efefef;
   color: green;

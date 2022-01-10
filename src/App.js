@@ -4,6 +4,8 @@ import muntiiFagaras from "./images/muntii-fagaras.jpg"
 import muntiiFagaras2 from "./images/muntii-fagaras-2.jpg"
 import muntiiTransfagarasan from "./images/transfagarasan.jpg"
 import {Contributors} from "./contributors";
+import {Links} from "./links.js"
+
 
 function App() {
     return (
@@ -104,6 +106,11 @@ function App() {
                     <div className="container">
                         <div className="col">
                             Acesta e footer-ul paginii mele.
+                        </div>
+                        <div className="row">
+                            <div className="col links-container">
+                                <Links/>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proiect-nou-8-ian/static/css/main.b44a1d3f.css",
-    "main.js": "/proiect-nou-8-ian/static/js/main.03456df4.js",
+    "main.js": "/proiect-nou-8-ian/static/js/main.90861fc3.js",
     "static/js/787.e32aea99.chunk.js": "/proiect-nou-8-ian/static/js/787.e32aea99.chunk.js",
     "static/media/official.jpg": "/proiect-nou-8-ian/static/media/official.706286c43738f5dd2ecd.jpg",
     "static/media/muntii-fagaras.jpg": "/proiect-nou-8-ian/static/media/muntii-fagaras.ba3f29989f0a7b1974a0.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/proiect-nou-8-ian/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/proiect-nou-8-ian/index.html",
     "main.b44a1d3f.css.map": "/proiect-nou-8-ian/static/css/main.b44a1d3f.css.map",
-    "main.03456df4.js.map": "/proiect-nou-8-ian/static/js/main.03456df4.js.map",
+    "main.90861fc3.js.map": "/proiect-nou-8-ian/static/js/main.90861fc3.js.map",
     "787.e32aea99.chunk.js.map": "/proiect-nou-8-ian/static/js/787.e32aea99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b44a1d3f.css",
-    "static/js/main.03456df4.js"
+    "static/js/main.90861fc3.js"
   ]
 }
